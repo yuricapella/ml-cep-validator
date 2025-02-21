@@ -1,14 +1,18 @@
 # ml-cep-validator
 
 ## Introdução
-O **ml-cep-validator** é uma API leve e eficiente para consulta, validação e obtenção de informações detalhadas sobre CEPs. O objetivo é fornecer um serviço rápido e confiável, evitando gargalos e otimizando o tempo de resposta ao consultar endereços.
 
-## Problemas do Mercado Livre
-Atualmente, a plataforma enfrenta desafios como:
+O **ml-cep-validator** é uma API eficiente para consulta e validação de CEPs, visando otimizar a experiência do usuário e garantir processos mais rápidos e confiáveis.
 
-Erros ou lentidão nas consultas de CEP, impactando a experiência do usuário.
-Falta de informações detalhadas sobre a região do comprador, dificultando cálculos de entrega.
-Problemas com CEPs inexistentes ou mal formatados, gerando falhas no checkout.
+### Objetivo
+
+- Proporcionar um serviço rápido e confiável para consulta e validação de CEPs.
+
+### Problema a Ser Resolvido
+
+- **Lentidão e erros** nas consultas de CEP.
+- **Falta de dados regionais**, dificultando cálculos de frete e identificação de filiais próximas.
+- **CEPs inválidos ou mal formatados**, causando falhas no checkout.
 
 # 🌐 Solução para Validação e Consulta de CEPs no Mercado Livre
 
