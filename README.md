@@ -12,35 +12,33 @@ Problemas com CEPs inexistentes ou mal formatados, gerando falhas no checkout.
 
 # 🌐 Solução para Validação e Consulta de CEPs no Mercado Livre
 
-## ✨ Resolução
-
 ### 🔢 Validação Rápida de CEPs
-- ✅ Utilização da API **ViaCEP**
-- ✔️ Valida o CEP, consulta na API e transforma em JSON
+-  Utilização da API **ViaCEP**
+-  Valida o CEP, consulta na API e transforma em JSON
 
-### 🌐 Integração com Múltiplas APIs para Maior Precisão
+### Integração com Múltiplas APIs para Maior Precisão
 - **APIs utilizadas:**
-  - 👉 ViaCEP
-  - 👉 BrasilAPI
-  - 👉 OpenStreetMap
+  -  ViaCEP
+  -  BrasilAPI
+  -  OpenStreetMap
 
 ### 🛠️ Consulta Otimizada via Cache
-- ⏳ **Cache de Requisições:** Armazena temporariamente os resultados das consultas para CEPs já pesquisados, reduzindo o tempo de resposta para consultas subsequentes.
+- **Cache de Requisições:** Armazena temporariamente os resultados das consultas para CEPs já pesquisados, reduzindo o tempo de resposta para consultas subsequentes.
 
-### 🌆 Enriquecimento de Dados Regionais
+###  Enriquecimento de Dados Regionais
 #### 💡 Implementação:
-- 🏰 **Base de Dados Geográfica Interna**: Relaciona CEPs a regiões específicas, incluindo informações sobre filiais próximas do Mercado Livre.
-- ♻️ **Atualizações Periódicas**: Sincroniza regularmente essa base de dados com fontes oficiais para garantir a precisão das informações.
+-  **Base de Dados Geográfica Interna**: Relaciona CEPs a regiões específicas, incluindo informações sobre filiais próximas do Mercado Livre.
+-  **Atualizações Periódicas**: Sincroniza regularmente essa base de dados com fontes oficiais para garantir a precisão das informações.
 
 #### 🎉 Benefícios:
-- ✅ Fornece detalhes regionais precisos.
-- ✅ Auxilia no cálculo de frete.
-- ✅ Identifica filiais próximas com disponibilidade de produtos.
+-  Fornece detalhes regionais precisos.
+-  Auxilia no cálculo de frete.
+-  Identifica filiais próximas com disponibilidade de produtos.
 
 ### 🔄 Verificação de Disponibilidade de Produtos em Filiais Próximas
 #### 💡 Implementação:
-- 🛠️ **Mapeamento de Estoque por Região**: Associa o estoque de produtos às respectivas filiais e regiões atendidas.
-- 🔯 **Algoritmo de Proximidade**: Ao receber um CEP, calcula a distância até as filiais mais próximas e verifica a disponibilidade do produto desejado.
+-  **Mapeamento de Estoque por Região**: Associa o estoque de produtos às respectivas filiais e regiões atendidas.
+-  **Algoritmo de Proximidade**: Ao receber um CEP, calcula a distância até as filiais mais próximas e verifica a disponibilidade do produto desejado.
 
 ---
 
