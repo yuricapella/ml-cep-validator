@@ -12,33 +12,27 @@ Problemas com CEPs inexistentes ou mal formatados, gerando falhas no checkout.
 
 # 🌐 Solução para Validação e Consulta de CEPs no Mercado Livre
 
-### 🔢 Validação Rápida de CEPs
--  Utilização da API **ViaCEP**
--  Valida o CEP, consulta na API e transforma em JSON
+## 🔢 Validação de CEPs
+- Uso da API **ViaCEP** para validação e consulta.  
+- Retorno em **JSON** com os dados do endereço.  
 
-### Integração com Múltiplas APIs para Maior Precisão
-- **APIs utilizadas:**
-  -  ViaCEP
-  -  BrasilAPI
-  -  OpenStreetMap
+## 🔗 Integração com Múltiplas APIs
+- **APIs utilizadas:**  
+  - ViaCEP  
+  - BrasilAPI  
+  - OpenStreetMap  
 
-### 🛠️ Consulta Otimizada via Cache
-- **Cache de Requisições:** Armazena temporariamente os resultados das consultas para CEPs já pesquisados, reduzindo o tempo de resposta para consultas subsequentes.
+## ⚡ Consulta Otimizada via Cache
+- **Armazena consultas recentes**, reduzindo tempo de resposta.  
 
-###  Enriquecimento de Dados Regionais
-#### 💡 Implementação:
--  **Base de Dados Geográfica Interna**: Relaciona CEPs a regiões específicas, incluindo informações sobre filiais próximas do Mercado Livre.
--  **Atualizações Periódicas**: Sincroniza regularmente essa base de dados com fontes oficiais para garantir a precisão das informações.
+## 🗺️ Enriquecimento de Dados Regionais
+- **Base geográfica interna** para associar CEPs a regiões.  
+- **Sincronização periódica** com fontes oficiais.  
 
-#### 🎉 Benefícios:
--  Fornece detalhes regionais precisos.
--  Auxilia no cálculo de frete.
--  Identifica filiais próximas com disponibilidade de produtos.
+## 🏪 Verificação de Estoque em Filiais Próximas
+- **Mapeamento do estoque** por região.  
+- **Cálculo de proximidade** para exibir a filial mais próxima.  
 
-### 🔄 Verificação de Disponibilidade de Produtos em Filiais Próximas
-#### 💡 Implementação:
--  **Mapeamento de Estoque por Região**: Associa o estoque de produtos às respectivas filiais e regiões atendidas.
--  **Algoritmo de Proximidade**: Ao receber um CEP, calcula a distância até as filiais mais próximas e verifica a disponibilidade do produto desejado.
 
 ---
 
