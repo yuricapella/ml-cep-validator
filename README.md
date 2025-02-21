@@ -81,3 +81,30 @@ Para garantir a entrega de uma solução robusta e escalável, o projeto será d
    ```bash
    git clone https://github.com/seu-usuario/ml-cep-validator.git
    cd ml-cep-validator
+   ```
+
+2. **Configuração do Ambiente:**
+   - Renomeie o arquivo `.env.example` para `.env` e ajuste as variáveis de ambiente conforme necessário.
+   - Instale as dependências:
+     ```bash
+     pip install -r requirements.txt  # Para projetos Python
+     # ou
+     npm install  # Para projetos Node.js
+     ```
+
+3. **Execução da Aplicação:**
+   ```bash
+   uvicorn main:app --reload  # Para FastAPI
+   # ou
+   node app.js  # Para Node.js
+   ```
+
+### Testes
+
+- Execute os testes unitários e de integração:
+  ```bash
+  pytest       # Para projetos Python
+  # ou
+  npm test     # Para projetos Node.js
+  
+
