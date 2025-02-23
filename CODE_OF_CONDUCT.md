@@ -35,7 +35,7 @@ Este código de conduta se aplica a todos os espaços da comunidade, incluindo, 
 
 ## Como Reportar Violações
 
-Se você presenciar ou sofrer qualquer comportamento que viole este código, por favor, entre em contato imediatamente através do e-mail: [seu-email@exemplo.com]. Todas as denúncias serão tratadas com confidencialidade e seriedade.
+Se você presenciar ou sofrer qualquer comportamento que viole este código, por favor, entre em contato imediatamente através do e-mail: [apenas_exemplo@exemplo.com]. Todas as denúncias serão tratadas com confidencialidade e seriedade.
 
 ## Consequências de Violações
 
