@@ -34,7 +34,7 @@ Ao contribuir para este projeto, você concorda com os termos da [Licença](LICE
 
 ## Dúvidas e Contato
 
-Se tiver dúvidas sobre como contribuir ou se precisar de ajuda, entre em contato abrindo uma issue ou enviando um e-mail para [seu-email@exemplo.com].
+Se tiver dúvidas sobre como contribuir ou se precisar de ajuda, entre em contato abrindo uma issue ou enviando um e-mail para [apenas_exemplo@exemplo.com].
 
 ---
 
